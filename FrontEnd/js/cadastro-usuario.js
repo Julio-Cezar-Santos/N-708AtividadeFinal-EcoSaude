@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', () => {
             
             try {
                 
-                const apiUrl = 'http://localhost/N-708AtividadeFinal-EcoSaude/BackEnd/api/auth/register.php';
+                const apiUrl = 'http://eco-saude.alwaysdata.net/BackEnd/api/auth/register.php';
 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
