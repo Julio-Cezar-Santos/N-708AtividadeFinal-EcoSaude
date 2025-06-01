@@ -19,7 +19,7 @@ document.addEventListener('DOMContentLoaded', () => {
             }
 
             try {
-                const response = await fetch('http://localhost/N-708AtividadeFinal-EcoSaude/BackEnd/api/auth/login.php', {
+                const response = await fetch('http://eco-saude.alwaysdata.net/BackEnd/api/auth/login.php', {
                     method: 'POST',
                     headers: {
                         'Content-Type': 'application/json',
