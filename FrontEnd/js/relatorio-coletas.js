@@ -33,7 +33,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         if (formato === 'csv') {
-            const apiUrlCsv = `http://localhost/N-708AtividadeFinal-EcoSaude/BackEnd/api/relatorios/exportar_coletas_csv.php?${queryParams}&token=${encodeURIComponent(token)}`;
+            const apiUrlCsv = `http://eco-saude.alwaysdata.net/BackEnd/api/relatorios/exportar_coletas_csv.php?${queryParams}&token=${encodeURIComponent(token)}`;
             console.log("Chamando para CSV: ", apiUrlCsv);
             window.location.href = apiUrlCsv;
         } else if (formato === 'pdf_placeholder') {
