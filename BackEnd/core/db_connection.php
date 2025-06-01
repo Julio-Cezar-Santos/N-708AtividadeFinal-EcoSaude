@@ -10,10 +10,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'OPTIONS') {
     exit();
 }
 
-$host = 'localhost';
-$usuario_db = 'root';    // Usuário padrão do MySQL no XAMPP
-$senha_db = '';          // Senha padrão do root no XAMPP é vazia
-$banco_db = 'formulario_eco';
+$host = 'mysql-eco-saude.alwaysdata.net';
+$usuario_db = 'eco-saude';    // Usuário padrão do MySQL no XAMPP
+$senha_db = 'senhausuario07';          // Senha padrão do root no XAMPP é vazia
+$banco_db = 'eco-saude_db';
 
 $conn = new mysqli($host, $usuario_db, $senha_db, $banco_db);
 
