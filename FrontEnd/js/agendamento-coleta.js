@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
             try {
               
-                const apiUrl = 'http://localhost/N-708AtividadeFinal-EcoSaude/BackEnd/api/coletas/create.php';
+                const apiUrl = 'http://eco-saude.alwaysdata.net/BackEnd/api/coletas/create.php';
                 
                 const response = await fetch(apiUrl, {
                     method: 'POST',
